@@ -1,0 +1,1 @@
+$ISE_HOME/nvim/bin/nvim -u $ISE_HOME/init.vim
