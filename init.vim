@@ -31,8 +31,8 @@ call plug#begin('~/pwshise/plugged')
 " ------------------- COC.NVIM SETTINGS   -------------------
 
 " custom node location:
-let g:coc_node_path = $ISE_HOME . "/pwshise/node/bin/node"
-call coc#config("npm.binPath", ($ISE_HOME . "/pwshise/node/bin/npm"))
+let g:coc_node_path = $ISE_HOME . "/node/bin/node"
+call coc#config("npm.binPath", ($ISE_HOME . "/node/bin/npm"))
 
 let g:coc_extension_root = $ISE_HOME . "/pwshise/coc-extensions"
 let g:coc_global_extensions=['coc-powershell', 'coc-snippets', 'coc-json' ]
